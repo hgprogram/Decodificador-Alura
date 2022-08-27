@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(243, 245, 252, 1);
+}
+main {
+  display: flex;
+  margin: 60px auto;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 20px 20px 0 20px;
+}
+.input-texto {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+  border: none;
+  color: rgba(10, 56, 113, 1);
+  font-weight: 400;
+  outline: none;
+  background-color: rgba(243, 245, 252, 1);
+  height: 400px;
+}
+::placeholder {
+  color: rgba(10, 56, 113, 1);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.info {
+  margin: 20px;
+}
+.caixa-mensagem {
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  margin-left: 60px;
+  height: 60%;
+  padding: 10px;
+  height: 700px;
+}
+h2 {
+  width: 370px;
+  margin-top: 40px;
+}
+p {
+  margin-top: 30px;
+}
+.imagem-pessoa {
+  margin-top: 90px;
+
+}
+.mensagem {
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+  border: none;
+  color: rgba(10, 56, 113, 1);
+  font-weight: 400;
+  outline: none;
+  padding: 10px;
+  width: 400px;
+  height: 80%;
+  display: none;
+  visibility: hidden;
+}
+.visibility{
+  display: block;
+  visibility: visible;
+}
+.encripitar {
+  background-color: rgba(10, 56, 113, 1);
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.encripitar:hover {
+  border: 2px solid rgb(72, 141, 226);
+}
+.descriptar {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  color: rgba(10, 56, 113, 1);
+  background-color:  #D8DFE8;
+  cursor: pointer;
+  border: none;
+}
+.descriptar:hover {
+  border: 2px solid gray;
+}
+.copiar {
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  color: white;
+  border: 2px solid rgba(10, 56, 113, 1);
+  color: rgba(10, 56, 113, 1);
+  transition: all 500ms;
+  cursor: pointer;
+  margin-top: 10%;
+}
+.copiar:hover {
+  background-color: rgba(10, 56, 113, 1);
+  color: white;
+}
+
+@media (max-width: 450px)
+{
+  main
+   {
+    display: block;
+    
+   }
+  .encripitar {
+    margin-bottom: 10px;
+    
+  }
+  .botoes{
+    margin-left: 20px;
+  }
+  .input-texto{
+    margin-left: 20px;
+  }
+  .caixa-mensagem, .mensagem{
+    margin-top: 20px;
+    width: 95%;
+    margin-left: 10px;
+  }
+}

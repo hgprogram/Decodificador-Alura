@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codificador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><img src="assets/Vector.svg" alt=""></h1>
+    </header>
+    <main>
+      <section>
+        <textarea name="" class="input-texto" placeholder="Digite aqui seu texto" ></textarea>
+        <p class="info"><img src="assets/info.svg">Apenas letras minúsculas e sem acento.</p>
+        <div class="botoes">
+          <button class="encripitar" onclick="btnEcriptar()">Criptografar</button>
+          <button class="descriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+      </section>
+
+      <section class="caixa-mensagem">
+        <textarea name="" class="mensagem"></textarea>
+        <img src="assets/img.svg" alt="" class="imagem-pessoa">
+        <h2 class="text1">Nenhuma mensagem encontrada</h2>
+        <p class="text2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <div id="caixa-botao-copiar"></div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
